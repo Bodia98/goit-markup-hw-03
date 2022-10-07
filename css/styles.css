@@ -1,0 +1,269 @@
+:root {
+    --brand-color: #000000 ;
+    --main-color: #212121;
+    --secondary-color: #2196F3;
+    --third-color: #757575;
+    --fourth-color: #FFFFFF;
+    --background-color-first: #F5F4FA;
+    --background-color-second: #2F303A;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    color: var(--main-color);
+    font-size: 14px;
+    background-color: var(--fourth-color);
+}
+
+/* -------------Заголовок----------------- */
+.header {
+    background-color: var(--fourth-color);
+}
+.logo {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    color: var(--brand-color);
+
+}
+.header-link:focus {
+    
+}
+.web {
+    color: var(--secondary-color);
+}
+
+.header-nav {
+    list-style: none;
+}
+
+/* --------------------Навігація------------------- */
+.header-nav {
+    
+}
+
+.header-item {
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+    color: var(--main-color);
+}
+.header-item:hover,
+.header-item:focus {
+    color: var(--secondary-color);
+}
+.header-item-studio {
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--secondary-color);
+    text-decoration: none;
+}
+.header-item-portfolio {
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--secondary-color);
+    text-decoration: none;
+}
+.header-contact {
+    list-style: none;
+}
+.header-item-contact {
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--third-color);
+    text-decoration: none;
+}
+.header-item-contact:hover,
+.header-item-contact:focus {
+    color: var(--secondary-color);
+}
+
+/* ----------------Головна секція------------- */
+.hero {
+    background-color: var(--background-color-second);
+}
+.hero-title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--fourth-color);
+}
+.button {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    color: var(--fourth-color);
+    background-color: var(--secondary-color);
+    border: none;
+    cursor: pointer;
+    
+}
+
+/* -------------Переваги---------------------- */
+.benefits-title-visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
+.benefits-list {
+    list-style: none;
+}
+.benefits-subtitle {
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+.benefits-text {
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--third-color);
+}
+
+/* -----------Чи ми займаємось, фото---------- */
+.section-title {
+    font-size: 36px;
+    line-height: 1.31;
+    letter-spacing: 0.03em;
+}
+.work-list {
+    list-style: none;
+}
+
+/* --------------Наша команда----------------- */
+.team {
+    background: var(--background-color-first);
+}
+.team-list {
+    list-style: none;
+}
+.tean-item {
+    background: var(--fourth-color);
+}
+.team-subtitle {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+.team-text {
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--third-color);
+}
+
+/* --------------Наші проекти----------------- */
+
+.project-title-visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
+.project-list {
+    list-style: none;
+}
+.project-button {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+    background: var(--background-color-first);
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+}
+.project-button:hover,
+.project-button:focus {
+    color: var(--fourth-color);
+    background-color: var(--secondary-color);
+}
+.project-items {
+    list-style: none;
+}
+/* ------------Список фото з описом----------- */
+.project-subtitle {
+    font-size: 18px;
+    line-height: 2.00;
+    letter-spacing: 0.06em;
+}
+.project-text {
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.03em;
+}
+/* ----------------Підвал--------------------- */
+.footer {
+    background-color: var(--background-color-second);
+}
+.footer-logo {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    color: var(--fourth-color);
+}
+.web {
+    color: var(--secondary-color);
+}
+.footer-studio {
+    color: var(--fourth-color);
+}
+.footer-list {
+    list-style: none;
+}
+.footer-item-adress {
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--fourth-color);
+    text-decoration: none;
+    font-style: normal;
+}
+.footer-item-contacts {
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+    font-style: normal;
+}
+.footer-item-adress:hover,{
+    color: var(--secondary-color);
+}
+.footer-item-contacts:hover,
+.footer-item-contacts:focus {
+    color: var(--secondary-color);
+}
