@@ -8,33 +8,37 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./css/styles.css" />
 </head>
 <body>
     <!--Заголовок-->
-    <header class="header">
-        <nav>
+    <header class="header container">
+        <nav class="nav">
             <a class="logo" href="./index.html"><span class="web">Web</span>Studio</a>
             <ul class="header-nav">
-                <li><a class="header-item-studio" href="./index.html">Студія</a></li>
-                <li><a class="header-item" href="./portfolio.html">Портфоліо</a></li>
-                <li><a class="header-item" href="#">Контакти</a></li>
+                <li class="item"><a class="header-item-studio" href="./index.html">Студія</a></li>
+                <li class="item"><a class="header-item" href="./portfolio.html">Портфоліо</a></li>
+                <li class="item"><a class="header-item" href="#">Контакти</a></li>
             </ul>
         </nav>
             <ul class="header-contact">
-                <li><a class="header-item-contact" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                <li><a class="header-item-contact" href="tel:+380961111111">+38 096 111 11 11</a></li>
+                <li class="item"><a class="header-item-contact" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                <li class="item"><a class="header-item-contact" href="tel:+380961111111">+38 096 111 11 11</a></li>
             </ul>
     </header>
     <!--Головна інформація-->
     <main>
         <!--Головна секція-->
-        <section class="hero">
-            <h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
+        <section class="hero-section">
+            <div class="container">
+            <h1 class="hero-title">Ефективні рішення для<br/>вашого бізнесу</h1>
             <button class="button" type="button">Замовити послугу</button>
+            </div>
         </section>
         <!--Переваги-->
-        <section class="benefits">
+        <section class="section">
+            <div class="container">
             <h2 class="benefits-title-visually-hidden">Наші переваги</h2>
             <ul class="benefits-list">
                 <li class="benefits-item">
@@ -54,18 +58,22 @@
                     <p class="benefits-text">Значимість цих проблем настільки очевидна, що реалізація планових завдань.</p>
                 </li>
             </ul>
+            </div>
         </section>
         <!--Чим займаємось, фото-->
-        <section class="work">
+        <section class="section">
+            <div class="container">
             <h2 class="section-title">Чим ми займаємося</h2>
             <ul class="work-list">
                 <li class="work-item"><img class="work-photo" src="./images/photo1.jpg" alt="Людина друкує на клавіатурі" width="370" height="294"></li>
                 <li class="work-item"><img class="work-photo" src="./images/photo2.jpg" alt="Людина працює за комп'ютером" width="370" height="294"></li>
                 <li class="work-item"><img class="work-photo" src="./images/photo3.jpg" alt="Палітра кольорів зображена на планшеті" width="370" height="294"></li>
             </ul>
+            </div>
         </section>
         <!--Наша команда-->
-        <section class="team">
+        <section class="section">
+            <div class="container">
             <h2 class="section-title">Наша команда</h2>
             <ul class="team-list">
                 <li class="tean-item">
@@ -89,6 +97,7 @@
                     <p class="team-text">UI Designer</p>
                 </li>
             </ul>
+            </div>
         </section>
     </main>
     <!--Підвал-->
